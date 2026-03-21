@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "ShinobiBuild - Construtor de Formações Naruto",
+    "description": "Ferramenta de criação de formações otimizadas para o jogo Naruto mobile"
+  },
+  "nav": {
+    "ninjas": "Ninjas",
+    "skills": "Habilidades",
+    "combos": "Combos",
+    "ariaLabel": "Navegação principal",
+    "ninjasAria": "Construir formação de ninjas",
+    "skillsAria": "Ver habilidades dos ninjas",
+    "combosAria": "Ver combos de combate"
+  },
+  "filters": {
+    "search": "Buscar...",
+    "allRoles": "Todos os Papéis",
+    "allVillages": "Todas as Aldeias",
+    "allStars": "Todas as Estrelas",
+    "allElements": "Todos os Elementos",
+    "allProperties": "Todas as Propriedades",
+    "role": "Papel",
+    "element": "Elemento",
+    "village": "Aldeia",
+    "stars": "Estrelas",
+    "property": "Propriedade",
+    "filters": "Filtros",
+    "clear": "Limpar",
+    "results": "{count} ninja(s)",
+    "ninjaSelected": "{count}/9 ninjas"
+  },
+  "elements": {
+    "Vento": "Vento",
+    "Raio": "Raio",
+    "Terra": "Terra",
+    "Fogo": "Fogo",
+    "Agua": "Água",
+    "Sombra": "Sombra",
+    "Fisico": "Físico"
+  },
+  "roles": {
+    "Ataque": "Ataque",
+    "Defesa": "Defesa",
+    "Suporte": "Suporte"
+  },
+  "careers": {
+    "Ataque": "Ataque",
+    "Defesa": "Defesa",
+    "Suporte": "Suporte",
+    "Ninjutsu": "Ninjutsu",
+    "Taijutsu": "Taijutsu",
+    "Genjutsu": "Genjutsu",
+    "unknown": "Outro"
+  },
+  "stats": {
+    "attack": "Ataque",
+    "defense": "Defesa",
+    "hp": "Vida",
+    "speed": "Velocidade",
+    "resistance": "Resistência",
+    "power": "Poder",
+    "powerLabel": "Poder: {power}",
+    "bp": "BP"
+  },
+  "skillTypes": {
+    "mystery": "Esotérica",
+    "attack": "Ataque",
+    "chase": "Perseguição",
+    "mysteryAlt": "Mistério"
+  },
+  "skills": {
+    "title": "Todas as Habilidades",
+    "results": "{count} habilidade(s) encontrada(s)",
+    "emptyState": "Selecione ninjas na aba \"Ninjas\" para ver suas habilidades.",
+    "cooldown": "Cooldown",
+    "rounds": "{count} round(s)",
+    "instant": "Instant",
+    "battlefieldCooldown": "Battlefield Cooldown",
+    "chakra": "Chakra",
+    "damage": "Damage",
+    "additionalStatus": "Additional status",
+    "hits": "Acertos",
+    "none": "Nenhum",
+    "level": "Nível",
+    "type": "Tipo",
+    "hold": "Hold",
+    "effects": "Efeitos"
+  },
+  "combos": {
+    "title": "Combos Detalhados",
+    "loading": "Calculando combos...",
+    "minNinjas": "Selecione pelo menos 2 ninjas na aba \"Ninjas\" para ver os combos.",
+    "noCombos": "Nenhum combo iniciado por {ninjaName}.",
+    "tryAnother": "Tente selecionar outro ninja para ver os combos disponíveis.",
+    "combo": "Combo",
+    "comboOf": "Combo de {type}",
+    "hits": "{count} golpes",
+    "total": "{count} total",
+    "horizontalView": "Visualização horizontal",
+    "verticalView": "Visualização vertical",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "skillTypes": {
+      "mysteryAlt": "Mistério"
+    },
+    "random": {
+      "generate": "Gerar Combos Aleatórios",
+      "backToFormation": "Voltar à Formação",
+      "mode": "Modo Randômico",
+      "description": "Explorando combinações aleatórias entre os ninjas da sua formação",
+      "empty": "Nenhum combo foi gerado. Tente novamente!",
+      "tryAgain": "Gerar Novamente"
+    }
+  },
+  "formation": {
+    "stats": "{count}/9 ninjas",
+    "clearFormation": "Limpar formação",
+    "itemsSet1": "Invocação",
+    "itemsSet2": "Skin",
+    "openItems1": "Selecionar invocação",
+    "openItems2": "Selecionar skin",
+    "toggleDrag": "Alternar arrastar",
+    "dragEnabled": "Arrastar ativado",
+    "dragDisabled": "Arrastar desativado - clique para ver skills",
+    "removeNinja": "Remover ninja"
+  },
+  "ninjaCard": {
+    "select": "Selecionar {name}, {role} {element}, poder {power}",
+    "alreadyUsed": ", já em uso",
+    "stars": "{count} estrelas"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "loadingError": "Não foi possível carregar os dados dos ninjas. Por favor, verifique sua conexão e tente novamente.",
+    "retry": "Tentar Novamente",
+    "items": "Itens"
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "portuguese": "Português",
+    "english": "English"
+  },
+  "propertyCategories": {
+    "villages": "Aldeias",
+    "clans": "Clãs",
+    "organizations": "Organizações",
+    "rank": "Patente",
+    "special": "Especiais",
+    "other": "Outros",
+    "all": {
+      "villages": "Todas as Aldeias",
+      "clans": "Todos os Clãs",
+      "organizations": "Todas as Organizações",
+      "rank": "Todas as Patentes",
+      "special": "Todos os Especiais",
+      "other": "Todos os Outros"
+    }
+  }
+}

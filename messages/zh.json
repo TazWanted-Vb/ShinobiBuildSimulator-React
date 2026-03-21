@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "title": "ShinobiBuild - 火影忍者阵容构建器",
+    "description": "火影忍者手游创建优化阵容的工具"
+  },
+  "nav": {
+    "ninjas": "忍者",
+    "skills": "技能",
+    "combos": "连招",
+    "ariaLabel": "主导航",
+    "ninjasAria": "构建忍者阵容",
+    "skillsAria": "查看忍者技能",
+    "combosAria": "查看战斗连招"
+  },
+  "filters": {
+    "search": "搜索...",
+    "allRoles": "所有职业",
+    "allVillages": "所有村庄",
+    "allStars": "所有星级",
+    "allElements": "所有属性",
+    "allProperties": "所有特性",
+    "role": "职业",
+    "element": "属性",
+    "village": "村庄",
+    "stars": "星级",
+    "property": "特性",
+    "filters": "筛选",
+    "clear": "清除",
+    "results": "{count} 个忍者",
+    "ninjaSelected": "{count}/9 忍者"
+  },
+  "elements": {
+    "Vento": "风",
+    "Raio": "雷",
+    "Terra": "土",
+    "Fogo": "火",
+    "Agua": "水",
+    "Sombra": "阴影",
+    "Fisico": "物理"
+  },
+  "roles": {
+    "Ataque": "攻击",
+    "Defesa": "防御",
+    "Suporte": "辅助"
+  },
+  "careers": {
+    "Ataque": "攻击",
+    "Defesa": "防御",
+    "Suporte": "辅助",
+    "Ninjutsu": "忍术",
+    "Taijutsu": "体术",
+    "Genjutsu": "幻术",
+    "unknown": "其他"
+  },
+  "stats": {
+    "attack": "攻击",
+    "defense": "防御",
+    "hp": "生命",
+    "speed": "速度",
+    "resistance": "抗性",
+    "power": "战力",
+    "powerLabel": "战力: {power}",
+    "bp": "BP"
+  },
+  "skillTypes": {
+    "mystery": "奥义",
+    "attack": "攻击",
+    "chase": "追打",
+    "mysteryAlt": "奥义"
+  },
+  "skills": {
+    "title": "所有技能",
+    "results": "找到 {count} 个技能",
+    "emptyState": "请在「忍者」选项卡中选择忍者以查看其技能。",
+    "cooldown": "冷却",
+    "rounds": "{count} 回合",
+    "instant": "即时",
+    "battlefieldCooldown": "战场冷却",
+    "chakra": "查克拉",
+    "damage": "伤害",
+    "additionalStatus": "附加状态",
+    "hits": "命中",
+    "none": "无",
+    "level": "等级",
+    "type": "类型",
+    "hold": "控制",
+    "effects": "效果"
+  },
+  "combos": {
+    "title": "详细连招",
+    "loading": "计算连招中...",
+    "minNinjas": "请在「忍者」选项卡中至少选择 2 个忍者以查看连招。",
+    "noCombos": "{ninjaName} 没有发起连招。",
+    "tryAnother": "尝试选择另一个忍者以查看可用连招。",
+    "combo": "连招",
+    "comboOf": "{type} 连招",
+    "hits": "{count} 击",
+    "total": "总计 {count}",
+    "horizontalView": "水平视图",
+    "verticalView": "垂直视图",
+    "horizontal": "水平",
+    "vertical": "垂直",
+    "skillTypes": {
+      "mysteryAlt": "奥义"
+    },
+    "random": {
+      "generate": "生成随机连招",
+      "backToFormation": "返回阵容",
+      "mode": "随机模式",
+      "description": "探索您阵容中忍者之间的随机组合",
+      "empty": "未生成连招。请重试！",
+      "tryAgain": "重新生成"
+    }
+  },
+  "formation": {
+    "stats": "{count}/9 忍者",
+    "clearFormation": "清除阵容",
+    "itemsSet1": "召唤兽",
+    "itemsSet2": "皮肤",
+    "openItems1": "选择召唤兽",
+    "openItems2": "选择皮肤",
+    "toggleDrag": "切换拖拽",
+    "dragEnabled": "拖拽已启用",
+    "dragDisabled": "拖拽已禁用 - 点击查看技能",
+    "removeNinja": "移除忍者"
+  },
+  "ninjaCard": {
+    "select": "选择 {name}，{role} {element}，战力 {power}",
+    "alreadyUsed": "，已使用",
+    "stars": "{count} 星"
+  },
+  "common": {
+    "loading": "加载中...",
+    "loadingError": "无法加载忍者数据。请检查您的网络连接并重试。",
+    "retry": "重试",
+    "items": "装备"
+  },
+  "languageSwitcher": {
+    "label": "语言",
+    "portuguese": "葡萄牙语",
+    "chinese": "中文"
+  },
+  "propertyCategories": {
+    "villages": "村庄",
+    "clans": "家族",
+    "organizations": "组织",
+    "rank": "等级",
+    "special": "特殊",
+    "other": "其他",
+    "all": {
+      "villages": "所有村庄",
+      "clans": "所有家族",
+      "organizations": "所有组织",
+      "rank": "所有等级",
+      "special": "所有特殊",
+      "other": "所有其他"
+    }
+  }
+}
