@@ -128,7 +128,6 @@ function VirtualizedNinjaListComponent({
   const [containerWidth, setContainerWidth] = useState(0); // Start with 0 to show loading state
   const [containerHeight, setContainerHeight] = useState(0);
   const [isReady, setIsReady] = useState(false); // Track if container size is initialized
-  const scrollRef = useRef<HTMLDivElement>(null);
 
   const layout = useMemo(() => {
     const cardHeight = isDesktop ? CARD_HEIGHT_DESKTOP : CARD_HEIGHT_MOBILE;
@@ -213,29 +212,19 @@ function VirtualizedNinjaListComponent({
 
   return (
     <div ref={containerRef} className="h-full w-full overflow-hidden">
-      <div
-        ref={scrollRef}
-        className="h-full w-full overflow-y-auto overflow-x-hidden"
-      >
-        <Grid
-          columnCount={columnCount}
-          columnWidth={columnWidth}
-          height={containerHeight}
-          rowCount={rowCount}
-          rowHeight={rowHeight}
-          width={containerWidth}
-          // @ts-expect-error - react-window types don't include cellComponent/cellProps but they exist at runtime
-          cellComponent={MemoizedCell}
-          cellProps={cellProps as any}
-          overscanCount={2}
-          style={{
-            overflowX: 'hidden',
-            overflowY: 'visible',
-          }}
-        />
-        {/* Spacer to ensure last card is fully visible */}
-        <div style={{ height: '80px' }} />
-      </div>
+      <Grid
+        columnCount={columnCount}
+        columnWidth={columnWidth}
+        height={containerHeight}
+        rowCount={rowCount}
+        rowHeight={rowHeight}
+        width={containerWidth}
+        // @ts-expect-error - react-window types don't include cellComponent/cellProps but they exist at runtime
+        cellComponent={MemoizedCell}
+        cellProps={cellProps as any}
+        overscanCount={2}
+        style={{ overflowX: 'hidden' }}
+      />
     </div>
   );
 }

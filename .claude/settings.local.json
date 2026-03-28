@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(find . -maxdepth 2 -type d ! -path */node_modules* ! -path */.next* ! -path */.git* ! -path */.idea*)",
+      "Bash(npm run:*)"
     ]
   }
 }

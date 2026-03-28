@@ -141,16 +141,26 @@ export function GlobalSkillsPopover() {
       const mousePos = realtimeMousePosition || anchorPosition;
       const popoverWidth = 616;
       const offsetX = 20;
+      const margin = 10;
 
       let left = mousePos.x + offsetX;
-      const top = mousePos.y;
+      let top = mousePos.y;
 
-      if (left + popoverWidth > window.innerWidth - 10) {
+      if (left + popoverWidth > window.innerWidth - margin) {
         left = mousePos.x - popoverWidth - offsetX;
       }
 
-      if (left < 10) {
-        left = 10;
+      if (left < margin) {
+        left = margin;
+      }
+
+      if (popoverHeight) {
+        if (top + popoverHeight > window.innerHeight - margin) {
+          top = window.innerHeight - popoverHeight - margin;
+        }
+        if (top < margin) {
+          top = margin;
+        }
       }
 
       return { top, left };
@@ -290,7 +300,7 @@ export function GlobalSkillsPopover() {
             left: 0,
             transform: `translate(${popoverPosition.left}px, ${popoverPosition.top}px)`,
             opacity: isOpen && !isScrolling ? 1 : 0,
-            pointerEvents: isOpen && !isScrolling ? "auto" : "none",
+            pointerEvents: "none",
             transition: transitionStyle,
             willChange: isOpen && !isScrolling ? "transform, opacity" : "auto",
             zIndex: 9999,
